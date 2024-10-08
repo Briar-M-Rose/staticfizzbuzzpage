@@ -1,0 +1,164 @@
+body {
+  background-color: #10187e;
+}
+
+/* Font CSS Classes */
+.montserrat-regular {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+/* Font CSS Classes */
+
+/* Navbar Styles */
+.sidebar {
+  width: 200px; /* Adjust the width as needed */
+  height: 100%;
+  background-color: #050724;
+  position: fixed; /* Make it fixed for a persistent sidebar */
+  top: 0;
+  left: 0;
+  padding: 20px;
+  padding-top: 30px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  border-top: solid 1px;
+  border-bottom: solid 1px;
+  border-color: #10187e;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sidebar ul li {
+  margin-bottom: 10px;
+  font-size: 18px;
+  width: 200px;
+}
+
+.sidebar ul li a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: #2be7e1;
+}
+
+.sidebar ul li a:hover {
+  background-color: #070a36;
+  transition: all 1s;
+}
+/* Navbar Styles */
+
+/* Title Styles */
+#title {
+  display: flex;
+  align-items: center;
+  color: #00fff7;
+  font-size: 20px;
+}
+/* Title Styles */
+
+/* CTA Button Styles */
+#cta {
+  width: 200px;
+  height: 75px;
+  background-color: #050724;
+  color: #00fff7;
+  border-style: none;
+  font-size: 25px;
+  border-radius: 20px;
+}
+
+#cta:hover {
+  background-color: #00fff7;
+  color: #050724;
+  transition: all 1s;
+}
+/* CTA Button Styles */
+
+/* Logo Image Styles */
+#my-logo {
+  width: 100px;
+  height: auto;
+  margin-left: 25%;
+  padding-top: 20px;
+}
+
+#my-logo:hover {
+  rotate: 360deg;
+  transition: all 1s;
+}
+/* Logo Image Styles */
+
+/* Styles for Body Section */
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin-left: 250px;
+}
+
+.welcome,
+.instructions {
+    font-size: 20px;
+}
+
+.text-box{
+    width: 250px;
+    height: 60vh;
+    color: white;
+    font-weight: 400;
+    padding: 30px;
+    border-radius: 50px;
+    background-color: #070a36;
+}
+
+.button-section {
+  flex: 1; /* Takes up most of the vertical space */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.large-button {
+  width: 300px;
+  height: 300px;
+  border: none;
+  background-color: #050724;
+  border-radius: 50%;
+  cursor: pointer;
+  position: relative;
+}
+
+.circle {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: #050724;
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #00fff7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 100px;
+}
+
+.circle:hover {
+  background-color: #4b57ff;
+  color: #050724;
+  transition: all 1s;
+}
+/* Styles for Body Section */
+
+/* Styles for Horizontal Rule */
+.break{
+    border: solid 1px white;
+}
+/* Styles for Horizontal Rule */
